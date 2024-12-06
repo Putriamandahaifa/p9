@@ -1,0 +1,20 @@
+sebelum bikim api lain, orek dlu yang api/login sma api/user
+untuk membuat methodnya patch/put 
+	PATCH -> data update iptional
+	PUT-> data update madority all
+caranya:
+	method yang di alamat url POST
+	nanti di body tambahkan _method (key)=> PATCH(value)
+url -> localhost:8000/api/book/1 hrs ada id
+
+untuk delete bisa langsung tinggal authorization
+url -> localhost:8000/api/book/1 hrs ada id
+
+1|V5nFwEQFQXIPGG6QojnBx5utcwU5qppvyIGqkqZm212ce48c
+(bearer token => api/user, api/books, dari api/login)
+
+
+NOTE : Semua api di authorization dengan bearer token 
+	Tokennya sama, yang atas
+	semua api yang gak wajib ada api urlnya cukup
+	localhost:8000/api/book

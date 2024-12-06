@@ -1,0 +1,19 @@
+BASH1
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan serv
+
+BASH2
+npm install
+npm run dev
+
+BASH3
+// php artisan storage:link
+// composer require barryvdh/laravel-dompdf
+// composer require maatwebsite/excel
+// php artisan vendor:publish
+// php artisan make:export BookExport --model=Book
+// php artisan make:import BookImport --model=Book
+
